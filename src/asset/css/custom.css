@@ -1,0 +1,452 @@
+* {
+    font-family: 'Verdana', 'sans-serif';
+}
+
+.topFixedBanner {
+    background-image: url("../image/asuka-bg.jpeg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topBannerOverlay {
+    position: absolute;
+    min-height: 550px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.topContent {
+    margin-top: 10em;
+}
+
+.topTitle {
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 48px;
+}
+
+.topSubtitle {
+    color: aliceblue;
+}
+.icon {
+    height: 80px;
+    width: 80px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.serviceCard {
+    margin: 5px;
+    height: 22em;
+    padding: 60px 30px;
+    box-shadow: 0 0 8px rgb(4, 55, 105, 0.2);
+}
+
+.serviceCard:hover {
+    box-shadow: 0 0 16px rgb(4, 55, 105, 0.2);
+}
+
+.serviceMainTitle {
+    color: #505050;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.bottom {
+    background: #051b35 none repeat scroll 0 0;
+    height: 3px;
+    width: 100px;
+    margin: -1.9rem auto 0;
+    margin-bottom: 3rem;
+}
+
+.navTitle, .countNumber {
+    font-weight: 700;
+    color: #ffffff!important;
+}
+
+.navTitleScroll {
+    color: #051b35!important;
+}
+
+.navBackground {
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgb(0, 0, 0, 0.5)!important;
+}
+
+.navBackgroundScroll {
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: #ffffff;
+    box-shadow: 0 0 8px 0 rgb(0, 115, 230, 0.3);
+}
+
+.navItem {
+    text-decoration: none;
+    font-family: 'Verdana', 'sans-serif';
+    color: #ffffff;
+}
+
+.navItemScroll {
+    color: #051b35!important;
+}
+
+.summaryBanner {
+    background-image: url("../image/summary.jpg");
+    min-height: 550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summaryOverlay {
+    position: absolute;
+    min-height: 550px;
+    width: 100%;
+    background: #2C254A;
+}
+
+.countTitle {
+    font-family: 'Verdana', 'sans-serif';
+    font-weight: 500;
+    color: #ffffff!important;
+    font-size: 16px;
+}
+
+.countSection {
+    margin: 20px;
+}
+
+.cardTitle {
+    color: #2C254A;
+    font-weight: 700;
+
+}
+
+.cardSubTitle {
+    color: #2C254A;
+    font-weight: 500;
+}
+
+.projectIcon {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.projectCard {
+    background: #ffffff;
+    width: 22em;
+    border-radius: 0.6em;
+    margin: 1em;
+    cursor: pointer;
+    box-shadow: 0 13px 25px -5px;
+    transition:  all ease 200ms;
+}
+
+.projectCard:hover {
+    transform: scale(1.03);
+    box-shadow: 0 13px 30px -5px;
+    transition:  all ease 200ms;
+}
+
+.courseImage{
+    width: 100%;
+}
+
+.videoCard {
+    box-shadow: 0 13px 10px -5px;
+    padding: 8rem 3rem;
+    background-color: #2C254A;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.siderBack {
+    background-color: #2C254A;
+    min-height: 450px;
+}
+
+.testimonialTitle {
+    color: #ffffff;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.testimonialText {
+    color: #ffffff;
+}
+
+.testimonialBottom {
+    background: #ffffff none repeat scroll 0 0;
+    height: 3px;
+    width: 100px;
+    margin: -1.9rem auto 0;
+    margin-bottom: 3rem;
+}
+
+.testimonialName {
+    color: #ffffff;
+}
+
+.circleImage {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.aboutMeImageContainer {
+    width: 300px;
+    height: 300px;
+    background-color: #2C254A;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.aboutMeImage {
+    height: 100%;
+    margin-top: 210px;
+    border-radius: 50%;
+}
+
+.aboutMeBody {
+    width: 100%;
+    height: 100%;
+    padding-left: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.footerSection {
+    margin-top: 5rem;
+    padding: 10px;
+    box-shadow: 0 0 8px 0;
+    background-color: #473F72;
+    color: #ffffff;
+}
+
+.footerName {
+    color: #ffffff;
+    margin-top: 0.5rem;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.socialContainer {
+    margin-top: 30px;
+}
+.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+.social:hover {
+    transform: translateY(-2px);
+}
+
+.footerLink {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footerLink:hover{
+    text-decoration: none;
+    color: #27a168;;
+}
+
+.copyrightSection{
+    padding: 10px;
+    background-color: #2C254A;
+    color: #ffffff;
+
+}
+
+.topFixedPage {
+    background-image: url("../image/page.png");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topPageOverlay {
+    position: absolute;
+    min-height: 250px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.topContentPage {
+    margin-top: 8em;
+}
+
+.topPageTitle {
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+/* Home Page Welcome Design */
+.introAreaTop {
+    margin-top: -70px;
+}
+
+.sectionTitle {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.sectionTitle .subTitle {
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.sectionTitle .subTitle.doubleLine::before {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 10px;
+    height: 3px;
+    width: 40px;
+    background: #2C254A;
+}
+
+.sectionTitle .subTitle.doubleLine::after {
+    content: '';
+    position: absolute;
+    right: -50px;
+    top: 10px;
+    height: 3px;
+    width: 40px;
+    background: #051b35;
+}
+
+.introAreaInner {
+    box-shadow: 0 0 30px rgb(0 0 0  / 7%);
+    background: #ffffff;
+    padding: 50px 0 0;
+    border-radius: 8px;
+}
+
+.maintitle {
+    color:#051b35;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.introFooter {
+    padding: 30px 30px 10px;
+    border-radius: 0 0 7px 7px;
+}
+
+.bgBase {
+    background: #473F72;
+}
+
+.sideImage {
+    margin-top: -15px;
+}
+
+.linkStyle, .linkStyle:hover {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.projectDetailsText {
+    color: #051b35;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.projectDetails {
+    margin-left: 35px;
+}
+
+.courseDetailsText {
+    color: #051b35;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.courseDetailsImg {
+    width: 100%;
+}
+
+.widgetFeature {
+    border: 1px solid #cbd6e2;
+}
+
+.widgetFeature ul li {
+    list-style: none;
+}
+
+.widgetTitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+}
+
+.widgetFeature .priceWrap {
+    background-color: #f0f4f9;
+    padding: 34px 23px 40px;
+}
+
+.loaderAnimation, .errorIcon {
+    width: 140px;
+    height: 140px;
+}
+
+.notfound {
+    color: #2C254A;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+@media (max-width: 575.98px) { 
+    .topTitle {
+        font-size: 30px;
+    }
+    .topSubtitle {
+        font-size: 18px;
+    }   
+
+    .aboutMeImage {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 576px) { 
+    .topTitle {
+        font-size: 38px;
+    }
+    .topSubtitle {
+        font-size: 22px;
+    }   
+
+}
