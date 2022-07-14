@@ -4,6 +4,7 @@ import { BarChart, Bar, ResponsiveContainer, XAxis, Tooltip } from 'recharts';
 import RestClient from '../../RestAPI/RestClient';
 import AppUrl  from '../../RestAPI/AppUrl';
 import Loading from '../Loading/Loading';
+import parse from 'html-react-parser';
 
 export default class Analysis extends Component {
 
@@ -35,13 +36,30 @@ export default class Analysis extends Component {
                         <ResponsiveContainer width="100%" height="100%">
                             <BarChart width={150} height={300} data={this.state.data}>
                                 <XAxis dataKey="technology"/>
-                                <Bar dataKey="projects" fill="#051b35" />
+                                <Bar dataKey="projects" fill="#473F72" />
                                 <Tooltip />
                             </BarChart>
                         </ResponsiveContainer>
                     </Col>
                     <Col lg={6} md={12} sm={12}>
-                        <p>{ this.state.techDescription}</p>
+                    {parse(this.state.techDescription)}
+                    <div class="interests container ">
+                        <div class="section-title">
+                            <span>Languages: </span>
+                        </div>
+                        <div class="row icon-container">
+                            <div class="icon-box">
+                                <h5>Japanese</h5>
+                            </div>
+                            <div class="icon-box">
+                                <h5>English</h5>
+                            </div>
+                            <div class="icon-box">
+                                <h5>Dutch</h5>
+                            </div>
+                        </div>
+                        
+                        </div>
                     </Col>
                 </Row>
             </Container>

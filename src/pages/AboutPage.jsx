@@ -12,9 +12,8 @@ export class AboutPage extends Component {
   render() {
     return (
       <Fragment>
-        <TopNavigation title='About Us'/>
-        <PageTop pageTitle='About Us'/>
-        <AboutMe />
+        <TopNavigation title='Resume'/>
+        <PageTop pageTitle='Resume'/>
         <AboutDescription />
         <Footer />
       </Fragment>

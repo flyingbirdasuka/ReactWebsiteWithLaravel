@@ -35,8 +35,7 @@ export class TopBanner extends Component {
                               <h1 className='topTitle'>{this.state.title}</h1>  
                             <Fade left>  
                               <h4 className='topSubtitle'>{this.state.subtitle}</h4>
-                            </Fade>     
-                              <Button variant="primary">Learn More</Button>
+                            </Fade>    
                           </Col>
                       </Row>
                   </Container>

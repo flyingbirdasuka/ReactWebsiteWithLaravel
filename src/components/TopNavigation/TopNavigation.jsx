@@ -46,12 +46,10 @@ export default class TopNavigation extends Component {
             
                 </Nav>
                 <Nav>
-                <Nav.Link><NavLink exact activeStyle={{color:'#27a168'}} to="/" className={this.state.navItem}>Home</NavLink></Nav.Link>
-                <Nav.Link><NavLink exact activeStyle={{color:'#27a168'}} to="/about" className={this.state.navItem}>About</NavLink></Nav.Link>
-                <Nav.Link><NavLink exact activeStyle={{color:'#27a168'}} to="/service" className={this.state.navItem}>Service</NavLink></Nav.Link>
-                <Nav.Link><NavLink exact activeStyle={{color:'#27a168'}} to="/course" className={this.state.navItem}>Courses</NavLink></Nav.Link>
-                <Nav.Link><NavLink exact activeStyle={{color:'#27a168'}} to="/portfolio" className={this.state.navItem}>Portfolio</NavLink></Nav.Link>
-                <Nav.Link><NavLink exact activeStyle={{color:'#27a168'}} to="/contact" className={this.state.navItem}>Contact</NavLink></Nav.Link>
+                <NavLink exact activeStyle={{color:'#27a168'}} to="/" className={this.state.navItem}>Home</NavLink>
+                <NavLink exact activeStyle={{color:'#27a168'}} to="/about" className={this.state.navItem}>Resume</NavLink>
+                <NavLink exact activeStyle={{color:'#27a168'}} to="/allportfolio" className={this.state.navItem}>Portfolio</NavLink>
+                <NavLink exact activeStyle={{color:'#27a168'}} to="/contact" className={this.state.navItem}>Contact</NavLink>
                 </Nav>
             </Navbar.Collapse>
             </Container>

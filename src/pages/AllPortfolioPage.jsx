@@ -11,8 +11,8 @@ class AllPortfolioPage extends Component {
   render() {
     return (
       <Fragment>
-        <TopNavigation title='All Portfolio'/>
-        <PageTop pageTitle='All Portfolio'/>
+        <TopNavigation title='All My Portfolio'/>
+        <PageTop pageTitle='All My Portfolio'/>
         <AllPortfolio />
         <Footer />
       </Fragment>

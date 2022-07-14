@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from 'react'
-import PortfolioDetails from '../components/PortfolioDetails/CourseDetails'
+import PortfolioDetails from '../components/PortfolioDetails/PortfolioDetails'
 import Footer from '../components/Footer/Footer'
 import PageTop from '../components/PageTop/PageTop'
 import TopNavigation from '../components/TopNavigation/TopNavigation'
 import { useParams } from "react-router-dom";
 
-class CourseDetailsPage extends Component {
+class PortfolioDetailsPage extends Component {
   
   componentDidMount(){
     window.scroll(0,0);
@@ -13,8 +13,9 @@ class CourseDetailsPage extends Component {
   render() {
     return (
       <Fragment>
-        <TopNavigation title='Course Details'/>
-        <PageTop pageTitle={this.props.param.portfolioName}/>
+        <TopNavigation title='Portfolio Details'/>
+        {/* <PageTop pageTitle={this.props.param.portfolioName}/> */}
+        <PageTop pageTitle={this.props.params.name} />
         <PortfolioDetails id={this.props.params.portfolioID}/>
         <Footer />
       </Fragment>
@@ -23,7 +24,7 @@ class CourseDetailsPage extends Component {
 }
 
 export default (props) => (
-  <CourseDetailsPage
+  <PortfolioDetailsPage
       {...props}
       params={useParams()}
   />
