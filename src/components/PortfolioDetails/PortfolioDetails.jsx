@@ -26,7 +26,6 @@ export class PortfolioDetails extends Component {
           this.setState({title: result[0]['title'], short_description: result[0]['short_description'], small_img: result[0]['small_img'], long_description: result[0]['long_description'], skill_all: result[0]['skill_all'], video_url: result[0]['video_url']}))
       } 
   render() {
-    console.log(this.state.video_url)
     return (
       <Fragment>
         <Container className='mt-5'>

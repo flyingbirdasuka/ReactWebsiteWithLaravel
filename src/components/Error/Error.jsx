@@ -5,7 +5,6 @@ import errorIcon from '../../asset/image/error.svg'
 export class Error extends Component {
   constructor(){
     super()
-    console.log('test');
   }
 
   render() {
