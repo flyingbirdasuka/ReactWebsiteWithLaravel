@@ -79,14 +79,14 @@ export class AboutDescription extends Component {
         <Container className='text-center'>
             <h1 className='serviceMainTitle'>ABOUT ME</h1>
             <div className='bottom'></div>
-            <Row className="mb-4">
+            <Row className="mb-5">
                 <Col lg={6} md={6} sm={12} className="d-flex align-items-center justify-content-center flex-column">
                     <div className='aboutMeImageContainer'>
                         <img className='aboutMeImage' src={face}/>
                     </div>
                     <div className='aboutMeBody text-center'>
                         <h5>Hi There, I'm</h5><h4>Asuka</h4>
-                        <h5>work as a <span id='myElement'> Web Developer</span></h5>
+                        <p>Web Developer</p>
                     </div>
                 </Col>
                 <Col lg={6} md={6} sm={12} className="d-flex align-items-center justify-content-center flex-column">
@@ -95,7 +95,8 @@ export class AboutDescription extends Component {
                     </div>
                 </Col>
             </Row>
-            <Row>
+            <hr></hr>
+            <Row className='mt-5'>
               <Col className="container resume flex-column">
               { myView2 }
               </Col>

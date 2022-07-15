@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
-import { Container, Col, Row, Button } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckSquare, faUser, faClock, faClipboard, faClone, faTags } from '@fortawesome/free-solid-svg-icons';
+import { faTags } from '@fortawesome/free-solid-svg-icons';
 import 'video-react/dist/video-react.css';
 import { Player, BigPlayButton } from 'video-react';
 import RestClient from '../../RestAPI/RestClient';
