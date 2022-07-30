@@ -275,6 +275,7 @@ a.navItemScroll{
 
 .social:hover {
     transform: translateY(-2px);
+    color: #ffffff;
 }
 
 .footerLink {
