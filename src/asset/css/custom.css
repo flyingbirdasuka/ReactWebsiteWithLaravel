@@ -541,7 +541,9 @@ p.detailsText {
    .sendMessage {
         color: #27a168;
    }
-
+   #portfolio-flters {
+        flex-wrap: wrap;
+    }
 @media (max-width: 575.98px) { 
     .topTitle {
         font-size: 30px;
@@ -558,6 +560,13 @@ p.detailsText {
     .job-and-education{
         flex-direction: column;
     }
+    .portfolio-container{
+        flex-direction: column;
+    }
+    .portfolio-item {
+        width: 100vw;
+    }
+
 }
 
 @media (min-width: 576px) { 
