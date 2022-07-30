@@ -32,7 +32,7 @@ export default class Analysis extends Component {
                 <h1 className='serviceMainTitle'>Key skills</h1>
                 <div className='bottom'></div>
                 <Row> 
-                    <Col style={{width:'100px', height: '300px'}} lg={6} md={12} sm={12}>
+                    {/* <Col style={{width:'100px', height: '300px'}} lg={6} md={12} sm={12}>
                         <ResponsiveContainer width="100%" height="100%">
                             <BarChart width={150} height={300} data={this.state.data}>
                                 <XAxis dataKey="technology"/>
@@ -40,21 +40,21 @@ export default class Analysis extends Component {
                                 <Tooltip />
                             </BarChart>
                         </ResponsiveContainer>
-                    </Col>
-                    <Col lg={6} md={12} sm={12}>
+                    </Col> */}
+                    <Col lg={12} md={12} sm={12}>
                     {parse(this.state.techDescription)}
-                    <div class="interests container ">
-                        <div class="section-title">
-                            <span>Languages: </span>
+                    <div className="interests container ">
+                        <div className="section-title">
+                            {/* <h5>Languages</h5> */}
                         </div>
-                        <div class="row icon-container">
-                            <div class="icon-box">
+                        <div className="row icon-container">
+                            <div className="icon-box">
                                 <h5>Japanese</h5>
                             </div>
-                            <div class="icon-box">
+                            <div className="icon-box">
                                 <h5>English</h5>
                             </div>
-                            <div class="icon-box">
+                            <div className="icon-box">
                                 <h5>Dutch</h5>
                             </div>
                         </div>

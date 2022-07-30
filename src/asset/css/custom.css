@@ -541,6 +541,7 @@ p.detailsText {
    .sendMessage {
         color: #27a168;
    }
+
 @media (max-width: 575.98px) { 
     .topTitle {
         font-size: 30px;
