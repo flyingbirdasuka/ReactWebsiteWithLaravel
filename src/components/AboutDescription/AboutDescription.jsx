@@ -96,12 +96,13 @@ export class AboutDescription extends Component {
                 </Col>
             </Row>
             <hr></hr>
-            <Row className='mt-5'>
+            <Row className='mt-5 job-and-education'>
               <Col className="container resume flex-column">
+                <h3 className='mb-3'>Work experience</h3>
               { myView2 }
               </Col>
               <Col className="container resume flex-column">
-          
+                <h3 className='mb-3'>Education</h3>
               { myView }
          
               </Col>

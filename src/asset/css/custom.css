@@ -553,6 +553,10 @@ p.detailsText {
         width: 200px;
         height: 200px;
     }
+
+    .job-and-education{
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 576px) { 
