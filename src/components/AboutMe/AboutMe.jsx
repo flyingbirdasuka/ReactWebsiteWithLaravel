@@ -40,7 +40,6 @@ export default class AboutMe extends Component {
                     </div>
                     <div className='aboutMeBody text-center'>
                         <h5>Hi There, I'm</h5><h4>Asuka</h4>
-                        <p>Web Developer</p>
                     </div>
                 </Col>
                 <Col lg={6} md={6} sm={12} className="d-flex align-items-center justify-content-center flex-column">
