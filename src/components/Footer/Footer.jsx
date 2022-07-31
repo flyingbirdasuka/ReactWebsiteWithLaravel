@@ -53,10 +53,8 @@ export default class Footer extends Component {
                     </div>
                 </Col>
                 <Col lg={3} md={6} sm={12} className={this.state.mainDivClass}>
-                    <h2 className='footerName'>Address</h2>
-                    <FontAwesomeIcon icon={faHome} /> {this.state.address}<br></br>
+                    <h2 className='footerName'>Contact</h2>
                     <FontAwesomeIcon icon={faEnvelope} /> Email: {this.state.email}<br></br>
-                    <FontAwesomeIcon icon={faPhone} /> Phone: {this.state.phone}<br></br>
                 </Col>
                 <Col lg={3} md={6} sm={12} className={this.state.mainDivClass}>
                     <h2 className='footerName'>Information</h2>

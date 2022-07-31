@@ -64,10 +64,7 @@ class ContactSection extends Component {
                         <p className='mt-2 sendMessage'>{this.state.sendMessage}</p>
                   </Col>
                   <Col lg={6} md={6} sm={12} className="d-flex flex-column align-items-center">
-                      <h2 className='footerName'>Address</h2>
-                      <FontAwesomeIcon icon={faHome} className="mb-1"/> <p className="mb-2">Address: {this.state.address}</p><br></br>
                       <FontAwesomeIcon icon={faEnvelope}className="mb-1" /> <p className="mb-2">Email: {this.state.email}</p><br></br>
-                      <FontAwesomeIcon icon={faPhone} className="mb-1"/> <p className="mb-2">Phone: {this.state.phone}</p><br></br>
                   </Col>
               </Row>
           </Container>
