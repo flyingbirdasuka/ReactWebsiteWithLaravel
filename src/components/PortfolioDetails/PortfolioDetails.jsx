@@ -1,7 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTags } from '@fortawesome/free-solid-svg-icons';
 import 'video-react/dist/video-react.css';
 import { Player, BigPlayButton } from 'video-react';
 import RestClient from '../../RestAPI/RestClient';
@@ -43,7 +41,7 @@ export class PortfolioDetails extends Component {
                     <hr />
                     <p className='detailsText'> {parse(this.state.long_description)}</p>
                     <div className='text-center priceWrap'>
-                       <FontAwesomeIcon icon={faTags} /> <span> Tags: </span>{this.state.skill_all}
+                        <span> Tags: </span>{this.state.skill_all}
                     </div>
                 </div>
                 </Col>
