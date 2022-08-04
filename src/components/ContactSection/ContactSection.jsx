@@ -1,7 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import { Container, Row, Col, Button, Form} from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faPhone, faHome } from '@fortawesome/free-solid-svg-icons';
 import RestClient from '../../RestAPI/RestClient';
 import AppUrl  from '../../RestAPI/AppUrl';
 import Loading from '../Loading/Loading';
@@ -64,7 +62,7 @@ class ContactSection extends Component {
                         <p className='mt-2 sendMessage'>{this.state.sendMessage}</p>
                   </Col>
                   <Col lg={6} md={6} sm={12} className="d-flex flex-column align-items-center">
-                      <FontAwesomeIcon icon={faEnvelope}className="mb-1" /> <p className="mb-2">Email: {this.state.email}</p><br></br>
+                      <p className="mb-2">Email: {this.state.email}</p><br></br>
                   </Col>
               </Row>
           </Container>

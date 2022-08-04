@@ -1,8 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone,  faHome } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 import RestClient from '../../RestAPI/RestClient';
 import AppUrl  from '../../RestAPI/AppUrl';
@@ -48,13 +45,13 @@ export default class Footer extends Component {
                 <Col lg={3} md={6} sm={12} className={this.state.mainDivClass}>
                     <h2 className='footerName'>Links</h2>
                     <div className='socialContainer'>
-                        <a href={this.state.linkedin} target="_blank"  rel="noopener noreferrer" className='social'><FontAwesomeIcon icon={faLinkedin} size='2x'/></a>
-                        <a href={this.state.github} target="_blank" className='social' rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} size='2x'/></a>
+                        <a href={this.state.linkedin} target="_blank"  rel="noopener noreferrer" className='social'></a>
+                        <a href={this.state.github} target="_blank" className='social' rel="noopener noreferrer"></a>
                     </div>
                 </Col>
                 <Col lg={3} md={6} sm={12} className={this.state.mainDivClass}>
                     <h2 className='footerName'>Contact</h2>
-                    <FontAwesomeIcon icon={faEnvelope} /> Email: {this.state.email}<br></br>
+                    Email: {this.state.email}<br></br>
                 </Col>
                 <Col lg={3} md={6} sm={12} className={this.state.mainDivClass}>
                     <h2 className='footerName'>Information</h2>
