@@ -544,6 +544,7 @@ p.detailsText {
    #portfolio-flters {
         flex-wrap: wrap;
     }
+
 @media (max-width: 575.98px) { 
     .topTitle {
         font-size: 30px;
@@ -565,6 +566,10 @@ p.detailsText {
     }
     .portfolio-item {
         width: 100vw;
+    }
+
+    .portfolio-row {
+        flex-direction: column-reverse;
     }
 
 }

@@ -22,12 +22,12 @@ export default class Portfolio extends Component {
     } else {
       const myList = this.state.myData;
       const myView = myList.map(myList => {
-        return <Col lg={6} md={12} sm={12}>
-        <Row>
-            <Col lg={6} md={6} sm={12} className='mb-5 d-flex justify-content-center'>
+        return <Col lg={6} md={12} sm={12} className='d-flex justify-content-center flex-row'>
+        <Row className='portfolio-row'>
+            <Col lg={6} md={6} sm={6}>
                 <img className='portfolioImage' src={ myList.small_img}/>
             </Col>
-            <Col lg={6} md={6} sm={12}>
+            <Col lg={6} md={6} sm={6}>
             <h5>{myList.title}</h5>
             <p>{myList.short_description}</p>
             <Link to={'/portfoliodetails/'+ myList.id + '/' + myList.title}>View details</Link>
