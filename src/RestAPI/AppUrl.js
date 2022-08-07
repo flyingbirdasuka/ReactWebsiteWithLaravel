@@ -1,5 +1,5 @@
 class AppUrl {
-    static BaseURL = 'http://admin.asuka-developer.com:8080/api';
+    static BaseURL = 'http://admin.asuka-developer.com/api';
 
     static HomeTopTile = this.BaseURL + '/homepage/title';
     static HomeTechDesc = this.BaseURL + '/techhome';
