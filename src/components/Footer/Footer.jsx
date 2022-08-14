@@ -45,8 +45,8 @@ export default class Footer extends Component {
                 <Col lg={3} md={6} sm={12} className={this.state.mainDivClass}>
                     <h2 className='footerName'>Links</h2>
                     <div className='socialContainer'>
-                        <a href={this.state.linkedin} target="_blank"  rel="noopener noreferrer" className='social'></a>
-                        <a href={this.state.github} target="_blank" className='social' rel="noopener noreferrer"></a>
+                        <a href={this.state.linkedin} target="_blank"  rel="noopener noreferrer" className='social'><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                        <a href={this.state.github} target="_blank" className='social' rel="noopener noreferrer"><i class="fa fa-github fa-2x " aria-hidden="true"></i></a>
                     </div>
                 </Col>
                 <Col lg={3} md={6} sm={12} className={this.state.mainDivClass}>
