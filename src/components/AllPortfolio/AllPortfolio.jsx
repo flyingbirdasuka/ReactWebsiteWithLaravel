@@ -36,7 +36,7 @@ class AllPortfolio extends Component {
             const myList = this.state.myData;
             const myView = myList.map(myList => {
               return <div className={myList.filter}>
-                  <Col className='d-flex align-items-center' lg={6} md={6} sm={12}>
+                  <Col className='d-flex align-items-center image-container' lg={6} md={6} sm={12}>
                       <img className='portfolioImage' src={myList.small_img}/>
                   </Col>
                   <Col className='d-flex flex-column justify-content-center'>
